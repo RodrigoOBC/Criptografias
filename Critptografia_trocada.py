@@ -16,4 +16,5 @@ def criptografar_cabralI(texto):
         resposta = resposta[::-1]
         return resposta
 entrar_dado = input()
-print(criptografar_cabralI(entrar_dado))
+NADA = criptografar_cabralI(entrar_dado)
+print(NADA)
