@@ -1,4 +1,4 @@
-def criptografar_cabralI(texto):
+def descriptografar_cabralI(texto):
     if texto.isdigit():
         return int(texto)/2
     else:
@@ -16,4 +16,4 @@ def criptografar_cabralI(texto):
         resposta = resposta[::-1]
         return resposta
 entrar_dado = input()
-print(criptografar_cabralI(entrar_dado))
+print(descriptografar_cabralI()criptografar_cabralI(entrar_dado))
